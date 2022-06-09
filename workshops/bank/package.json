@@ -1,0 +1,16 @@
+{
+  "name": "bank",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "bank": "node ./index.js",
+    "bank:test": "node test-decrypt.js && jest test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "crypto-js": "^4.1.1",
+    "jest": "^28.0.3"
+  }
+}

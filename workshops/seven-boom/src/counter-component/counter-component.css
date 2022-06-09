@@ -1,0 +1,27 @@
+.counter-component{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.counter-component__value {
+    font-size: 50px;
+    margin: 16px 0px;
+}
+
+.counter-component__button {
+    background-color: rgba(85, 97, 229, 0.76);
+    color: white;
+    font-size: 32px;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    border-width: 0;
+}
+
+.counter-component__button:hover {
+    background-color: rgba(55, 70, 227, 0.76);
+    transition: background-color .2s ease-in-out;
+}
