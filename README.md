@@ -1,3 +1,6 @@
+![image](https://user-images.githubusercontent.com/62943675/173578257-51705f7b-5609-43a1-a518-71edc259c2ce.png)
+
+
 # Welcome to the testing workshops!
 We have 3 exciting workshops just for you, in each on you'll practice different kind of testing.
 You can find all the different workshops under the "workshops" directory.
