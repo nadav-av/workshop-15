@@ -8,9 +8,10 @@ This is how the counter looks like now:
 # The goal
 Turn this boring counter into an awesome 7 boom game!  
 7 boom is a simple game - you start counting, and as soon as you get to a number that is either:  
-a. Contains "7". 
-b. Can be divided by 7. 
+a. Contains "7".  
+b. Can be divided by 7.  
 You say "BOOM!" instead of the number.  
+For example: 1,2,3,4,5,6,BOOM,8,9,10,11,12,13,BOOM,15,16,BOOM,18,19....  
 So this is what your game should look like after you change the code:  
 ![my_7boom](https://user-images.githubusercontent.com/62943675/173575919-7061044d-e912-458e-b816-4367458b47e5.gif)
 
