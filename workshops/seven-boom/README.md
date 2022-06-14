@@ -1,7 +1,7 @@
 # Background
 This project contains a simple counter component.
 By clicking "+" the value will increment, and by clicking "-" the value will decrement.
-This is how the counter looks like now:
+This is how the counter looks like now:  
 ![my_counter_gif](https://user-images.githubusercontent.com/62943675/173575884-754e7f35-b220-4f5b-9344-0423a7e718f9.gif)
 
 
@@ -11,7 +11,7 @@ Turn this boring counter into an awesome 7 boom game!
 a. Contains "7"
 b. Can be divided by 7
 You say "BOOM!" instead of the number.
-So this is what your game should look like after you change the code:
+So this is what your game should look like after you change the code:  
 ![my_7boom](https://user-images.githubusercontent.com/62943675/173575919-7061044d-e912-458e-b816-4367458b47e5.gif)
 
 
