@@ -1,10 +1,9 @@
 # Setup and installation
 ```
-git clone https://github.com/DaPulse/monday-u-workshops.git  
-cd workshops/testing/production-incident
 nvm use  
 npm i 
-npm run start
+npm run start  
+read the instructions below
 ```
 
 # Background

@@ -1,3 +1,11 @@
+# Setup and installation
+```
+nvm use  
+npm i 
+npm run start  
+read the instructions below
+```
+
 # Background
 This project contains a simple counter component.  
 By clicking "+" the value will increment, and by clicking "-" the value will decrement.  

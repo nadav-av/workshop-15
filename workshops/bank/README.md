@@ -1,9 +1,8 @@
 # Setup and installation
 ```
-git clone https://github.com/DaPulse/monday-u-workshops.git  
-cd workshops/testing/bank
 nvm use  
-npm i
+npm i  
+read the instructions below
 ```
 
 # The task

@@ -27,6 +27,7 @@ const calculateBalance = (data) => {
     // TODO: implement me!
 
     return "0.00";
+    // TODO: return null if an error occurs
 }
 
 module.exports = {
