@@ -1,5 +1,5 @@
 import { render, screen, fireEvent, waitFor } from '@testing-library/react';
-import App from './app';
+import App from '../app';
 
 const clickIncrement = async (times) => {
   const plusButton = await screen.getByText("+");
