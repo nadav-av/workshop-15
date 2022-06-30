@@ -1,6 +1,6 @@
 # Setup and installation
 ```
-nvm use  
+nvm use <- (Skip this if you are using node 16+)  
 npm i  
 read the instructions below
 ```
