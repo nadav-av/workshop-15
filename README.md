@@ -14,6 +14,6 @@ You can find all the different workshops under the "workshops" directory.
 ```
 git clone https://github.com/monday-u-com/workshop-15.git  
 cd workshops/[WORKSHOP_NAME]
-nvm use  
+nvm use <- (Skip this if you are using node 16+)
 npm i
 ```
