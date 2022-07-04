@@ -21,15 +21,34 @@
 // 2.If an exception occurs, simply return null
 // 3.To test the function's result, see file index.js
 const calculateBalance = (data) => {
-    // TODO: implement me!
-    // TODO: implement me!
-    // TODO: implement me!
-    // TODO: implement me!
+  try {
+    if (data.length === 0) {
+      return "0.00";
+    }
+    validateData(data);
+    const sum = data.reduce((acc, curr) => {
+      return acc + parseFloat(curr.balance);
+    }, 0);
+    return (sum / data.length).toFixed(2);
+  } catch (e) {
+    return null;
+  }
+};
 
-    return "0.00";
-    // TODO: return null if an error occurs
-}
+const validateData = (data) => {
+  if (!data) {
+    throw new Error("Data is required");
+  }
+  if (!Array.isArray(data)) {
+    throw new Error("Data must be an array");
+  }
+  if (data.some((item) => !item.firstName || !item.lastName || !item.balance)) {
+    throw new Error(
+      "Data must be an array with all elements having firstName, lastName and balance properties"
+    );
+  }
+};
 
 module.exports = {
-    calculateBalance
-}
+  calculateBalance,
+};
